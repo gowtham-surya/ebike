@@ -37,7 +37,7 @@ const App = () => {
       <View className="flex-1 items-center justify-center bg-[#f2f2f2]">
         <StatusBar backgroundColor="#f2f2f2" className="text-black" />
 
-        {pairedDevice ? (
+        {true ? (
           <DisplayData {...bleData} />
         ) : (
           <TouchableOpacity className="w-32 h-32 border-l-2 border-r-2 border-t-4 border-[#00BCC9] rounded-full items-center justify-center">
