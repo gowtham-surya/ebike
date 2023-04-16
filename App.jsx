@@ -34,8 +34,8 @@ const App = () => {
 
   return (
     <TailwindProvider>
-      <View className="flex-1 items-center justify-center bg-[#f2f2f2]">
-        <StatusBar backgroundColor="#f2f2f2" className="text-black" />
+      <View className="flex-1 items-center justify-center bg-[#000000]">
+        <StatusBar backgroundColor="#000000" className="text-white" />
 
         {true ? (
           <DisplayData {...bleData} />
